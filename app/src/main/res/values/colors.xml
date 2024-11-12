@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ttt">#00FFFFFF</color>
+  <color name="gold">#B7935F</color>
+    <color name="gold2">#997A51</color>
+<color name="transperant">#002979FF</color>
+    <color name="bgIconLoge">#858585</color>
+
+    <color name="nav_bar_color">#B7935F</color>
+    <color name="btn_color">#B7935F</color>
+    <color name="text">#242424</color>
+</resources>

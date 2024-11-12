@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chapterdetails.ChapterdetailsActivity"
+    android:background="@drawable/bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transperant"
+
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transperant"
+android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/title_sura_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/elmessiri_bold"
+                android:gravity="center_horizontal"
+                android:text="islami"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+
+
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+ 
+<include layout="@layout/content_chapter_details"
+    app:layout_constraintTop_toBottomOf="@id/toolbar"
+     />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

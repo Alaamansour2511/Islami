@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+
+  <TextView
+     android:id="@+id/title_quran"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+       android:text="إسلامي"
+     android:textSize="36sp"
+     android:gravity="center"
+      android:textColor="@color/black"
+     android:fontFamily="@font/elmessiri_bold"
+     android:layout_margin="10dp"
+     />
+
+
+ <com.google.android.material.bottomnavigation.BottomNavigationView
+     android:id="@+id/navigation_bar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     android:background="@color/nav_bar_color"
+     app:menu="@menu/nav_bar"
+     app:itemIconTint="@color/icon_nave_selected"
+     app:itemTextColor="@color/icon_nave_selected"
+     tools:ignore="VisualLintBottomNav"
+
+     />
+ <LinearLayout
+     android:id="@+id/fargment_contaner"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="horizontal"
+      app:layout_constraintTop_toBottomOf="@id/title_quran"
+     app:layout_constraintBottom_toTopOf="@id/navigation_bar"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:layout="@layout/fragment_quran"
+     />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

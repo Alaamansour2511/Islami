@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Islami</string>
+    <string name="quran">Quran</string>
+    <string name="hadith">Hadith</string>
+    <string name="tasbeh">tasbeh</string>
+    <string name="radio">radio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">todo</string>
+    <string name="suret_elfatiha">suret elfatiha</string>
+</resources>
