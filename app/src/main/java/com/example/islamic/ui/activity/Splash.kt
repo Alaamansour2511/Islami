@@ -1,4 +1,4 @@
-package com.example.islamic.ui.Activity
+package com.example.islamic.ui.activity
 
 import android.content.Intent
 import android.os.Bundle

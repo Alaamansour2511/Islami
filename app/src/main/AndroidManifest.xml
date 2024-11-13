@@ -13,11 +13,16 @@
         android:theme="@style/Theme.Islamic"
         tools:targetApi="31">
         <activity
-            android:name=".ui.Activity.chapterdetailsquran.ChapterDetailsActivity"
+            android:name=".ui.activity.hadithdeteails.HadithDetailsActivity"
             android:exported="false" />
-
         <activity
-            android:name=".ui.Activity.Splash"
+            android:name=".ui.activity.hadithdeteails.HadithDeteails"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.chapterdetailsquran.ChapterDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.Splash"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

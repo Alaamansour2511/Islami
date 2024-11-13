@@ -6,10 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.RecyclerView
-import com.example.islamic.R
-import com.example.islamic.databinding.FragmentQuranBinding
-import com.example.islamic.ui.Activity.chapterdetailsquran.ChapterDetailsActivity
+ import com.example.islamic.databinding.FragmentQuranBinding
+import com.example.islamic.ui.activity.chapterdetailsquran.ChapterDetailsActivity
 
 class QuranFragment : Fragment() {
 

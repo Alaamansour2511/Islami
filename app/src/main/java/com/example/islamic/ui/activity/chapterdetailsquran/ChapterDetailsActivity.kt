@@ -1,15 +1,12 @@
-package com.example.islamic.ui.Activity.chapterdetailsquran
+package com.example.islamic.ui.activity.chapterdetailsquran
 
 import android.graphics.Color
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islamic.R
 import com.example.islamic.databinding.ActivityChapterdetailsBinding
-import com.example.islamic.databinding.ContentChapterDetailsBinding
 import com.example.islamic.ui.fragment.quran.ContentChapterAdapter
 
 class ChapterDetailsActivity : AppCompatActivity() {
@@ -17,8 +14,7 @@ class ChapterDetailsActivity : AppCompatActivity() {
 
      var chapterPosition: Int = -1
       lateinit var chapterTitle: String
-      lateinit var tvTitle: TextView
-      lateinit var  versesRecyclerView: RecyclerView
+       lateinit var  versesRecyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
